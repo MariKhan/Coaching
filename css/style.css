@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: url("../img/background_2.webp");
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+.logo {
+    padding-top: 15px;
+}
+h1,h3, span, .life {
+    text-transform: uppercase;
+}
+.coach {
+    font-size: 18px;
+    padding-left: 17px;
+}
+.menu li {
+    display: inline;
+    margin-left: 25px;   
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.menu {
+    position: relative;
+    bottom: 35px;
+    text-align: right;
+}
+.menu a:hover, .activ {
+   color: #66C1C5;
+}
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+
+.lighter {
+    padding-top: 200px;
+    text-align: center;
+    font-size: larger;
+    font-weight:lighter  ;
+}      
+
+.bolder {     
+    font-size: 130px;
+    text-align: center;
+    font-weight:bolder ;
+}
+
+.btn {
+    background-color: black;
+    color: #ffffff;
+    margin: 10px 10px;
+    margin-left: 362px;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border:none;
+   
+ }
+
+.wrapper2 {
+    background-color: white;
+    margin-top: 200px;   
+ }
+
+.img_men {
+   
+    float: right;
+    /* height: 1000px; */
+   
+ }
+
+/* img {
+    height: 830px;
+    width: 700px;
+} */
+
+.text {
+    padding-top: 85px;
+    width: 50%;
+    padding-bottom: 90px;
+
+ }
+
+.text h1 {
+    font-size: 50px;
+    
+ }
+
+ 
+.text p {
+    padding-top: 70px;
+    width: 370px;
+    font-size: 20px;
+}
+
+
+.text3 {
+    padding-top: 80px;
+    width: 50%;
+    /* height: 400px; */
+
+ }
+
+.text3 h1 {
+    font-size: 26px;
+    text-align: left;
+    
+ }
+
+ .text3 p {
+    margin-top:50px;
+    font-size: 19px;
+   float: left;
+    
+ }
+hr {
+    
+    width: 40px;
+    height: 1px;
+    border-color: black;
+    background-color: black;
+    margin: 100px 0px 50px;
+}
+
+ 
+.form {
+    background-color: #57BBBF;
+    /* padding-top: 10px; */
+    text-align: right;
+ } 
+ 
+ input, textarea {
+     width: 550px;
+     height: 45px;
+     margin-top: 10px;
+     border:none;
+ }
+ 
+::placeholder {
+   
+     padding-left: 10px;
+     font-size: 15px;
+ 
+ }
+ 
+ .btn {
+     background-color: black;
+     color: #ffffff;
+     margin: 10px 10px;
+     margin-left: 362px;
+     font-size: 18px;
+     width: 150px;
+     height: 40px;
+     border:none;
+    
+    
+ }
+ .btn:hover {
+    background:none;
+    color:black;
+    border: 2px solid black;
+    transition-duration: 0.8s;
+ }
+ 
+ .btn2 {
+    background-color: black;
+    color: #ffffff;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border:none;
+    margin-top: 70px;
+   
+ }
+ .btn2:hover {
+    background:none;
+    color:black;
+    border: 2px solid black;
+    transition-duration: 0.8s;
+ }
+ textarea {
+     resize:none;
+ }
+
+ .menu2 {
+     padding-top:30px;
+text-align: center;
+
+}
+
+.menu2 a {
+    text-decoration: none; 
+    border-bottom: 1px solid #535353de;
+    width:300px;
+    color:black;
+    font-size:20px;
+
+ }
+ 
+.menu2 li {
+    display: inline;
+    margin:10px;
+    padding-bottom:50px;
+}
+
+ .menu2 a:hover  {
+    /* padding-left: 400px; */
+    /* text-decoration: underline; */
+    border-bottom: 3px solid #1f255e;
+    /* padding-bottom: 200px; */
+}
+/* #9EB5AE  */
+
+
+.block {
+
+    background-color: white;
+    width: 300px;  
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 250px;
+    padding-bottom: 20px;
+
+}
+
+
+.a{
+    display:flex;
+    margin-top:50px;
+}
+.a h3 {
+    padding-top:40px;
+    text-transform:capitalize;
+}
+
+/* .block-text {
+    padding-top: 20px;
+    padding-bottom: 50px;
+} */
+.block .btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.block-text1 {
+    padding: 35px; 
+    }
+
+.block-text2 {
+    padding: 25px; 
+    }
+
+    .block-text3 {
+        padding: 35px; 
+        }
+    
+
+.b {
+    opacity:0;
+}
+.hover:hover .b {
+    opacity:1;
+}
+/*
+.hover:hover  {
+    display: block;
+  } */
+
+  .a:hover .descr{
+    display:block;
+    position:absolute;
+   
+}
